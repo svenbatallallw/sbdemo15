@@ -1,0 +1,9 @@
+name: Build Using Template
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  use-template:
+    uses: svenbatallallw/sbdemo-template/.github/workflows/build-template.yml@main
